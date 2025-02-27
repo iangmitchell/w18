@@ -1,4 +1,4 @@
-import './bulma/bulma.css';
+import 'bulma/css/bulma.min.css';
 import {useEffect, useState} from 'react'
 import Header from './Header.js'
 import TokenArtifact from "./artifacts/raffle.json";
