@@ -29,7 +29,7 @@ function App() {
     }
   }
   listenToEvent();
-  }, [contract])
+  }, [???????])
 
   useEffect(()=>{
     const onLoad=(async()=>{
