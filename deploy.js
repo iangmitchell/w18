@@ -6,7 +6,7 @@ async function main(){
   //create an instance of counter contract
   const Raffle = await ethers.getContractFactory("Raffle");
   await console.log('*************************')
-  const raffle = await Raffle.deploy();
+  
   await raffle.waitForDeployment();
 //  await raffle.deployed(); //older versions of hardhat-toolbox
 //https://hardhat.org/hardhat-runner/docs/advanced/migrating-from-hardhat-waffle
